@@ -13,7 +13,7 @@ The physical setup consists of complex industrial and custom-built robotics:
 *   **Communication:** Externally Guided Motion (EGM) interface bridging the ROS environment with the YuMi hardware controller.
 
 ## Software & Control Strategy
-The program is built in Python on a Linux system running ROS 1[cite: 13, 14]. To achieve soft real-time performance, the architecture relies on concurrent sensor sampling and joint execution:
+The program is built in Python on a Linux system running ROS 1. To achieve soft real-time performance, the architecture relies on concurrent sensor sampling and joint execution:
 
 *   **Multi-threaded ROS Node:** The system is directed by a main control thread handling the sequential pipeline (Ready Pose -> Probing -> Grasping -> Relocation), supported by asynchronous callback threads for force/pressure data and real-time positional data (Coordinated Joint States).
 *   **Tactile Probing:** The robot lacks a vision system and instead relies on tactile probing. YuMi executes incremental movements until the wrist pressure sensors register a physical collision exceeding 0.2N, effectively "feeling" its environment.
@@ -26,6 +26,6 @@ The system successfully demonstrated high repeatability in identifying, grasping
 *Visuals of the geometric calculation:*
 
 ![Probing and Grasping](länk-till-din-figur-3.jpg)
-*Figure showing the computed gripping points adjusting to a misaligned target tray.*[cite: 18, 19]
+*Figure showing the computed gripping points adjusting to a misaligned target tray.*
 
-**Full Documentation:** *For a detailed breakdown of the project, please check out the [Full project report().*
+**Full Documentation:** *For a detailed breakdown of the project and its code, please check out the [Full project report (PDF)(documentation/YUMI___Rapport(v2).pdf).*
