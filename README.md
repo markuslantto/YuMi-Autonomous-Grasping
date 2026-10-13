@@ -2,7 +2,7 @@
 
 A ROS-based robotic control system enabling an ABB YuMi dual-arm robot to autonomously locate, grasp, and relocate objects using tactile feedback. The system was developed on top of ROS Noetic and integrates YuMi with a custom omni-directional mobile platform ("Sleipner").
 
-[Demo video of the project results](https://drive.google.com/file/d/12tfmOUe6nXlcd2-n-YzafMDeANJ5e0eQ/view)
+[Demo video of YuMi probing and grasping (Sped up)](https://drive.google.com/file/d/12tfmOUe6nXlcd2-n-YzafMDeANJ5e0eQ/view)
 
 
 ## Hardware & System Architecture
@@ -23,9 +23,8 @@ The program is built in Python on a Linux system running ROS 1. To achieve soft 
 The system successfully demonstrated high repeatability in identifying, grasping, and relocating the target object, even when the object was positioned with an angular misalignment relative to the robot's base. The continuous concurrent sampling ensured that the robot immediately stopped incremental motion upon contact, proving the viability of soft real-time tactile control in a Python setup.
 
 ---
-*Visuals of the geometric calculation:*
 
-![Probing and grasping](images/yumi_misaligned.png)
-*Figure showing the computed gripping points adjusting to a misaligned target tray.*
+![Probing and grasping](images/yumi_misaligned.png)  
+*Figure of YuMi computing gripping points when adjusting to a misaligned target tray.*
 
-**Full Documentation:** *For a detailed breakdown of the project and its code, please check out the ![Full project report](documentation/YUMI___Rapport(v2).pdf).*
+**Full Documentation:** For a detailed breakdown of the project and its code, please check out the ![Full project report](documentation/YUMI___Rapport(v2).pdf).
