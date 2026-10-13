@@ -2,7 +2,7 @@
 
 A ROS-based robotic control system enabling an ABB YuMi dual-arm robot to autonomously locate, grasp, and relocate objects using tactile feedback. The system was developed on top of ROS Noetic and integrates YuMi with a custom omni-directional mobile platform ("Sleipner").
 
-![YuMi Grasping Demo](https://drive.google.com/file/d/12tfmOUe6nXlcd2-n-YzafMDeANJ5e0eQ/view)
+[Demo video of the project results](https://drive.google.com/file/d/12tfmOUe6nXlcd2-n-YzafMDeANJ5e0eQ/view)
 
 
 ## Hardware & System Architecture
