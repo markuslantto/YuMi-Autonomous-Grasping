@@ -25,7 +25,7 @@ The system successfully demonstrated high repeatability in identifying, grasping
 ---
 *Visuals of the geometric calculation:*
 
-![Probing and Grasping](länk-till-din-figur-3.jpg)
+![Probing and grasping](images/yumi_misaligned.png)
 *Figure showing the computed gripping points adjusting to a misaligned target tray.*
 
-**Full Documentation:** *For a detailed breakdown of the project and its code, please check out the [Full project report (PDF)(documentation/YUMI___Rapport(v2).pdf).*
+**Full Documentation:** *For a detailed breakdown of the project and its code, please check out the ![Full project report](documentation/YUMI___Rapport(v2).pdf).*
